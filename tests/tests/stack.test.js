@@ -19,5 +19,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 });
 
 test('peek on stack if element matches null', () => {
-    expect(stack.peek()).toBeNul();
+    expect(stack.peek()).toBeNull();
 });
