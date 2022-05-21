@@ -20,5 +20,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 
 test('pop first item in the stack and returns number 10', () => {
     stack.push(10);
-    expect(stack.pop()).toBe(12) //Felaktigt medvetet
+    expect(stack.pop()).toBe(10)
 });

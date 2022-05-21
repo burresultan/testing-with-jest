@@ -38,7 +38,7 @@ describe('Clicking "Pusha till stacken"', () => {
 //Eget test
 (async function owntest() {
     try {
-        let peek = await driver.findElement(By.name('peek')); //Medvetet felaktigt
+        let peek = await driver.findElement(By.id('peek'));
         await peek.click();
         let alert = await driver.switchTo().alert();
         await alert.sendKeys("Peeka");
